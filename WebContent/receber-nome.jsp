@@ -23,9 +23,11 @@
 	
 	<%= request.getContextPath() %>
 	<br/>
-	<% response.sendRedirect("https://mouseweb.com.br/"); %>
+	<% //response.sendRedirect("https://mouseweb.com.br/"); %>
 	<% //response.sendRedirect("/cadastro-pessoa.jsp") %>
 	
+	<br/>
 	
+	<%= session.getAttribute("user") %>
 </body>
 </html>

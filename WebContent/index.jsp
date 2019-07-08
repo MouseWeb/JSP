@@ -36,5 +36,7 @@
 	<br/>
 	<%= application.getInitParameter("estado") %>
 	
+	<% session.setAttribute("user", "douglas"); %>
+	
 </body>
 </html>
