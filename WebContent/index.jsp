@@ -8,13 +8,29 @@
 </head>
 <body>
 	<h1>JSP - SERVLET</h1>
-	<% out.print("OK - Tag Print" ); %>
-	<br>
-	<%= "Tag Expressão de Print" %>
 	
 	<form action="receber-nome.jsp">
 		<input type="text" id="nome" name="nome">
 		<input type="submit" value="Enviar"/>
 	</form>
+	
+	<% out.print("OK - Tag Print" ); %>
+	<br>
+	<%= "Tag Expressão de Print" %>
+	<br>
+	
+	<%! int cont = 10; 
+	
+		public int retorna(int n){
+			return n * 3;
+		}
+		
+	%>
+	<%! String tag = "Tag declarativa"; %>
+	
+	<%= cont + "/ " %>
+	<%= tag + "/ " %>
+	<%= retorna(5) + "/ " %>
+	
 </body>
 </html>
