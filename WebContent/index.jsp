@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>JSP - SERVLET</h1>
+	<h1>JSP</h1>
 	
 	<form action="receber-nome.jsp">
 		<input type="text" id="nome" name="nome">
@@ -15,9 +15,9 @@
 	</form>
 	
 	<% out.print("OK - Tag Print" ); %>
-	<br>
+	<br/>
 	<%= "Tag Expressão de Print" %>
-	<br>
+	<br/>
 	
 	<%! int cont = 10; 
 	
@@ -28,9 +28,11 @@
 	%>
 	<%! String tag = "Tag declarativa"; %>
 	
-	<%= cont + "/ " %>
-	<%= tag + "/ " %>
-	<%= retorna(5) + "/ " %>
+	<%= cont %>
+	<br/>
+	<%= tag %>
+	<br/>
+	<%= retorna(5) %>
 	
 </body>
 </html>

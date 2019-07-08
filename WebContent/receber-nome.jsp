@@ -12,9 +12,18 @@
 	out.print(nome);
 	//out.print(request.getParameter("nome")); 
 	%> 
-	<br>
+	
+	<br/>
+	
 	<%=
 	"Nome recebido / Tag Expressão de Print: " + request.getParameter("nome")
 	%>
+	
+	<br/>
+	
+	<%= request.getContextPath() %>
+	<br/>
+	<% response.sendRedirect("https://mouseweb.com.br/"); %>
+	<% //response.sendRedirect("/cadastro-pessoa.jsp") %>
 </body>
 </html>
