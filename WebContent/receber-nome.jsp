@@ -12,5 +12,9 @@
 	out.print(nome);
 	//out.print(request.getParameter("nome")); 
 	%> 
+	<br>
+	<%=
+	"Nome recebido / Tag Expressão de Print: " + request.getParameter("nome")
+	%>
 </body>
 </html>

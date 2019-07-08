@@ -8,7 +8,9 @@
 </head>
 <body>
 	<h1>JSP - SERVLET</h1>
-	<% out.print("OK"); %>
+	<% out.print("OK - Tag Print" ); %>
+	<br>
+	<%= "Tag Expressão de Print" %>
 	
 	<form action="receber-nome.jsp">
 		<input type="text" id="nome" name="nome">
