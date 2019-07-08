@@ -33,6 +33,8 @@
 	<%= tag %>
 	<br/>
 	<%= retorna(5) %>
+	<br/>
+	<%= application.getInitParameter("estado") %>
 	
 </body>
 </html>
