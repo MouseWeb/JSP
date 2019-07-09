@@ -11,6 +11,11 @@
 </head>
 <body>
 	<h1>JSP - Home</h1>
+	<!-- -------------------------------------------------------- -->
+	
+	<!-- Incluide Dinâmico -->
+	
+	<jsp:include page="cabecalho.jsp"/>
 	
 	<!-- -------------------------------------------------------- -->
 	
@@ -65,13 +70,8 @@
 	
 	<myprefix:minhatag/>
 	
-	<!-- -------------------------------------------------------- -->
 	
-	<!-- Tag Forwards (Redireciona para outra pag) -->
-	
-	<!--<jsp:forward page="receber-nome.jsp">
-		<jsp:param value="JSP - Mouse Web" name="paramforward"/>
-	</jsp:forward>-->
+	<jsp:include page="rodape.jsp"/>
 	
 </body>
 </html>
