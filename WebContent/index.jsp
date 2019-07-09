@@ -12,6 +12,9 @@
 <title>JSP</title>
 </head>
 <body>
+
+<!-- SITE REFERÊNCIA (ESTUDO): https://www.tutorialspoint.com/jsp/ -->
+
 	<h1>JSP - Home</h1>
 	<!-- -------------------------------------------------------- -->
 	
