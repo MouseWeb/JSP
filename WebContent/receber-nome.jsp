@@ -21,6 +21,8 @@
 	
 	<br/>
 	
+	<!-- -------------------------------------------------------- -->
+	
 	<%= request.getContextPath() %>
 	<br/>
 	<% //response.sendRedirect("https://mouseweb.com.br/"); %>
@@ -28,6 +30,13 @@
 	
 	<br/>
 	
+	<!-- -------------------------------------------------------- -->
+	
 	<%= session.getAttribute("user") %>
+	
+	<%@ page isErrorPage="true" %>
+	
+	<%= exception %>
+	
 </body>
 </html>

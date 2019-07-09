@@ -9,6 +9,8 @@
 <body>
 	<h1>JSP</h1>
 	
+	<!-- -------------------------------------------------------- -->
+	
 	<form action="receber-nome.jsp">
 		<input type="text" id="nome" name="nome">
 		<input type="submit" value="Enviar"/>
@@ -26,6 +28,9 @@
 		}
 		
 	%>
+	
+	<!-- -------------------------------------------------------- -->
+	
 	<%! String tag = "Tag declarativa"; %>
 	
 	<%= cont %>
@@ -37,6 +42,17 @@
 	<%= application.getInitParameter("estado") %>
 	
 	<% session.setAttribute("user", "douglas"); %>
+	
+	<!-- -------------------------------------------------------- -->
+	
+	<!-- Directivas -->
+	<%@ page import="java.util.Date"%>
+	
+	<%= "Data de hoje: " + new Date()%>
+	
+	<%@ page errorPage="receber-nome.jsp"%>
+	
+	<%= 100/2%>
 	
 </body>
 </html>
