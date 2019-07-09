@@ -78,6 +78,20 @@
 	<!-- Java Ben é uma Class que processar dados na memoria em tempode execução -->
 	
 	<%= calcula.calculaMetodo(50) %>
+	<br/>
+	<!-- -------------------------------------------------------- -->
+	
+	<!-- Setters e Getters -->
+	
+	<form action="cabecalho.jsp" method="post">
+		<input type="text" id="nome" name="nome">
+		<br/>
+		<input type="text" id="ano" name="ano">
+		<br/>
+		<input type="text" id="sexo" name="sexo">
+		<br/>
+		<input type="submit" value="testar"/>
+	</form>
 	
 </body>
 </html>
