@@ -1,3 +1,5 @@
+<jsp:useBean id="calcula" class="Beans.BeanJsp" type="Beans.BeanJsp" scope="page" />
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
@@ -72,6 +74,10 @@
 	
 	
 	<jsp:include page="rodape.jsp"/>
+	
+	<!-- Java Ben é uma Class que processar dados na memoria em tempode execução -->
+	
+	<%= calcula.calculaMetodo(50) %>
 	
 </body>
 </html>
