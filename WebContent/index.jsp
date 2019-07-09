@@ -51,8 +51,6 @@
 	<br/>
 	<%= application.getInitParameter("estado") %>
 	
-	<% session.setAttribute("user", "douglas"); %>
-	
 	<!-- -------------------------------------------------------- -->
 	
 	<!-- Directivas -->
@@ -92,6 +90,21 @@
 		<br/>
 		<input type="submit" value="testar"/>
 	</form>
+	<br/>
+	<!-- -------------------------------------------------------- -->
+	
+	<!-- Expression language jsp -->
+	
+	<form action="cabecalho.jsp" method="post">
+		<input type="text" id="endereco" name="endereco">
+		<br/>
+		<input type="text" id="complemento" name="complemento">
+		<br/>
+		<input type="submit" value="Endereço"/>
+	</form>
+	
+	<% session.setAttribute("user", "douglas"); %>
+	<a href="cabecalho.jsp">Ver teste</a>
 	
 </body>
 </html>

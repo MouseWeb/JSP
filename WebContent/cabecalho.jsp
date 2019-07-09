@@ -18,6 +18,14 @@
 	<jsp:getProperty property="ano" name="calcula"/>
 	<br/>
 	<jsp:getProperty property="sexo" name="calcula"/>
+	<br/>
+	<!-- -------------------------------------------------- -->
+	
+	Endereço : ${param.endereco}
+	<br/>
+	Complemento : ${param.complemento}
+	<br/>
+	${sessionScope.user}
 
 </body>
 </html>
