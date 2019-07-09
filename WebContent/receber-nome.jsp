@@ -38,5 +38,9 @@
 	
 	<%= exception %>
 	
+	<!-- -------------------------------------------------------- -->
+		
+	<%= request.getParameter("paramforward") %>
+	
 </body>
 </html>

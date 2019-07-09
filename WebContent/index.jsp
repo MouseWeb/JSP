@@ -65,5 +65,13 @@
 	
 	<myprefix:minhatag/>
 	
+	<!-- -------------------------------------------------------- -->
+	
+	<!-- Tag Forwards (Redireciona para outra pag) -->
+	
+	<!--<jsp:forward page="receber-nome.jsp">
+		<jsp:param value="JSP - Mouse Web" name="paramforward"/>
+	</jsp:forward>-->
+	
 </body>
 </html>
